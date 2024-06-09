@@ -1,0 +1,45 @@
+.stopwatch {
+    text-align: center;
+    margin: 50px auto;
+    width: 300px;
+}
+
+.display {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start, #reset {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stop, #lap {
+    background-color: #f44336;
+    color: white;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+}
+
+#laps li {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
